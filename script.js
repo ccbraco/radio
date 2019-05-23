@@ -7,7 +7,7 @@ function PlayRadio() {
     $flux.play();
 } ;
 function stopRadio(){
-    $flux.stop();
+    $flux.pause();
 }
 
 $btnPlayer.addEventListener('onclick', PlayRadio());
