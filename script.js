@@ -4,14 +4,19 @@ let $btnPlayer= document.getElementById("play");
 let $btnStop=document.getElementById("stop");
 
 function PlayRadio() {
-    $flux.play();
+    if ($flux.paused) {
+        $flux.play() 
+      } else {
+        $flux.pause() 
+      }
+
 } ;
-function stopRadio(){
-    $flux.pause();
-}
+// function stopRadio(){
+//     $flux.pause();
+// }
 
 $btnPlayer.addEventListener('onclick', PlayRadio());
-$btnStop.addEventListener('onclick', stopRadio());
+// $btnStop.addEventListener('onclick', stopRadio());
 
 
 
