@@ -3,11 +3,11 @@ let $flux=  document.getElementById("flux");
 let $btnPlayer= document.getElementById("play");
 
 
-function myPlay() {
+function playRadio() {
     $flux.play();
 } ;
 
 
-$btnPlayer.addEventListener('onclick', myPlay());
+$btnPlayer.addEventListener('onclick', playRadio());
 
 
