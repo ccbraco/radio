@@ -6,7 +6,7 @@ let $btnStop=document.getElementById("stop");
 function PlayRadio() {
     $flux.play();
 } ;
-function StopRadio(){
+function stopRadio(){
     $flux.stop();
 }
 
