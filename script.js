@@ -30,9 +30,9 @@ audioPlayer.appendChild(playButton);
 audioTrack.removeAttribute("controls");
 setText(playButton, "Play");
 
-let trackProgress = document.createElement("progress");
-trackProgress.setAttribute("src", "08-Exo-Politics.mp3");
-audioPlayer.appendChild(trackProgress);
+// let trackProgress = document.createElement("progress");
+// trackProgress.setAttribute("src", "08-Exo-Politics.mp3");
+// audioPlayer.appendChild(trackProgress);
 
 let muteButton = document.createElement("button");
 setText(muteButton, "Mute");
