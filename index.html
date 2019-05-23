@@ -33,15 +33,24 @@
 <div class="container-fluid nav">
         <div class="row">
             <div class="col">
-                <audio controls >
+                <audio id= "flux" controls >
                 <source src="https://stream.radiobeton.com:8001/stream.mp3" type="audio/mp3">
                   Your browser does not support the <code>audio</code> element.
                 </audio>
-                <img src="img/play.png" alt="player" width="150" height="113">
+                <img src="img/play.png" id= "play" onclick="PlayRadio()" alt="player" width="150" height="113">
 
             </div>
         </div>
     </div> 
+
+
+
+
+
+
+
+
+    <!-- les scripts -->
     <script>
             // CODELAB: Register service worker.
         if ('serviceWorker' in navigator) {
@@ -54,6 +63,7 @@
         }
           </script>
 
+   <script src="script.js"></script>
     
 </body>
 </html>
