@@ -19,16 +19,21 @@
 // $btnStop.addEventListener('onclick', stopRadio());
 
 
-//                 test emmanuel 
 
-let audioPlayer = document.getElementById("audioplayer"),
-audioTrack = document.getElementById("audiotrack"),
-playButton = document.createElement("button");
+// on se localise dans le DOM
 
-playButton.type = "button";
-audioPlayer.appendChild(playButton);
-audioTrack.removeAttribute("controls");
-setText(playButton, "Play");
+let audioPlayer = document.getElementById("audioplayer"),// BALISE FIGURE
+
+audioTrack = document.getElementById("audiotrack"), //BALISE AUDIO
+
+// BOUTON PLAY: à voir si on met une image pour le bouton avec un élément  icone pour le play (qui changera en fonction de l'état)
+playButton = document.createElement("button"); 
+playButton.type = "button"; // déclaration du type du BOUTON PLAY
+audioPlayer.appendChild(playButton); // localisation du BOUTON PLAY
+setText(playButton, "Play"); //Ajout du texte PLAY
+
+audioTrack.removeAttribute("controls");// remove du controls pour ne pas avoir le player
+
 
 // let trackProgress = document.createElement("progress");
 // trackProgress.setAttribute("src", "08-Exo-Politics.mp3");
