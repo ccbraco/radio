@@ -1,5 +1,5 @@
 body {
- background-color: #00fe66;
+ background-color: #fecf00;
 }
 
 .head {
@@ -8,9 +8,9 @@ body {
 }
 
 .nav {
-    border: 1px solid rgb(255, 0, 187);
+    border: 1px solid red;
 }
 button{
-    background-color: #1f48af;
+    background-color: #1faf32;
 
 }
