@@ -92,6 +92,7 @@ function backToStart(){
 
 
 setAttributes(volumeLevel, {"type": "range", "min": "0" , "max": "1" , "step": "any" , "value": "0.75"});
+
 playButton.addEventListener("click", player);
 muteButton.addEventListener("click", muter);
 volumeLevel.addEventListener("input", function(){
